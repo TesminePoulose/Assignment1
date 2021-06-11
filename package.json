@@ -1,10 +1,13 @@
 {
-  "name": "comp229-m2021-week4",
-  "version": "0.0.2",
+  "name": "assignment1",
+  "version": "0.0.1",
   "private": true,
   "description": "Demo Project for COMP229 - Week 4",
   "main": "index.js",
-  "repository": "https://github.com/CentennialCollege/COMP229-M2021-Week4b.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CentennialCollege/COMP229-M2021-Week4b.git"
+  },
   "author": "Tom Tsiliopoulos <tsiliopoulos@hotmail.com>",
   "license": "MIT",
   "scripts": {
@@ -33,5 +36,12 @@
     "@types/jquery": "^3.5.5",
     "@types/morgan": "^1.9.2",
     "@types/node": "^15.6.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/CentennialCollege/COMP229-M2021-Week4b/issues"
+  },
+  "homepage": "https://github.com/CentennialCollege/COMP229-M2021-Week4b#readme",
+  "keywords": [
+    "express"
+  ]
 }
